@@ -1,5 +1,5 @@
 docker run \
     -it \
-    -v `pwd`/app/src:/app/src \
+    -v `pwd`:/app \
     --rm \
     node-tester
