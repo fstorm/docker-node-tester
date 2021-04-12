@@ -1,0 +1,22 @@
+{
+  "name": "docker_node_tester",
+  "version": "1.0.0",
+  "description": "The image to use during dev is located under `tools/dev`. It can be build using the `build.sh` script, and run using `run.sh`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fstorm/docker-node-tester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fstorm/docker-node-tester/issues"
+  },
+  "homepage": "https://github.com/fstorm/docker-node-tester#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
